@@ -1,0 +1,82 @@
+@font-face {
+    font-family:Smooch_Sans;
+    src: url(fonty/Smooch_Sans/SmoochSans-VariableFont_wght.ttf);
+        font-weight: normal;
+
+}
+@font-face {
+    font-family:Smooch_Sans2;
+    src: url(fonty/Smooch_Sans/SmoochSans-VariableFont_wght.ttf);
+    font-size:x-large;
+}
+header {
+    height: 40px;
+    background: #9bdc84;
+    font-family: "Smooch_Sans2";
+    font-weight: bold;
+    box-shadow: 0.01px 0.01px 4px #1c2228;
+}
+article header {
+    height: 80px;
+    background: #ffffff;
+    font-family: "Smooch_Sans2";
+    box-shadow: 0px 0px 0px #1c2228;
+}
+article {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+        margin: 0 auto;
+    border: 3px solid green;
+    border-top: 3px dotted rgb(128, 0, 0);
+    border-right: 3px solid green;
+    border-bottom: 3px dotted green;
+    border-left: 3px groove green;
+}
+h1,h2, h3, h4, h5, h6 {
+    text-align : center;
+    color : rgb(255, 108, 11);
+    font-family: "Smooch_Sans2";
+    text-shadow: 1px 1px 0 #ffffff,3px 3px 3px #cacaca;
+}
+h2{
+    font-size: 1.7em;
+}
+mark{
+    background-color : rgb(226, 249, 142);
+    color : #89547c;
+}
+.centrovany {
+    text-align: center;
+}
+body {
+    font-family: "Smooch_Sans";
+    background: #ffffff;
+}
+strong {
+    color : rgb(82, 113, 151);
+    font-family: "Smooch_Sans2";
+}
+.avatar {
+    float: right;
+    width: 200px;
+    padding-left: 10px;
+}
+.prostredni {
+    background: #ffffff;
+}
+article section p {
+    line-height: 1.4em;
+}
+/*article section a {
+    color: #EF6534;
+}*/
+.reference-tlacitko {
+    background: #70B73A;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+}

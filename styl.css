@@ -1,0 +1,214 @@
+@font-face {
+    font-family:Smooch_Sans;
+    src: url(fonty/Smooch_Sans/SmoochSans-VariableFont_wght.ttf);
+        font-weight: normal;
+
+}
+@font-face {
+    font-family:Smooch_Sans2;
+    src: url(fonty/Smooch_Sans/SmoochSans-VariableFont_wght.ttf);
+    font-size:x-large;
+}
+html {
+    background: #414042;
+}
+#logo > * {
+    margin: 0 0 0 50px;
+}
+#logo h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+#logo h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#logo small {
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+#logo {
+    height: 40px;
+    width: 100;
+    margin: auto 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('obrazky/untitled.png') no-repeat;
+    background-size: 40px 40px;
+}
+#dovednosti td {
+    width: 33%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid gray;
+}
+#dovednosti {
+    border-collapse: collapse;
+}
+#reference img {
+    border: 1px solid gray;
+    padding: 6px;
+    box-shadow: 3px 3px 6px #999999;
+    margin-right: 6px;
+}
+#reference a {
+    text-decoration: none;
+}
+
+#reference a:hover {
+    text-decoration: none;
+}
+.navigace{
+    height: 100px;
+    width: 100%;
+    background: #00386B;
+    color: rgb(108, 174, 176);
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+nav ul {
+    padding: 0 85px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+nav ul li {
+    padding: 0 15px;
+    margin: 0 10px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul a:hover {
+    border-bottom: 2px solid #EF6534;
+}
+.aktivni a{
+    border-bottom: 2px solid #34ef60;
+}
+.vrch {
+    height: 1px;
+    background: #9bdc84;
+    box-shadow: 0.01px 0.01px 4px #1c2228;
+}
+.kontakt-tlacitko {
+    background: #EF6534;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.kontakt-tlacitko:hover,
+.reference-tlacitko:hover {
+    filter: brightness(115%) contrast(85%);
+    border: 0;
+}
+.prostredni header{
+    border-bottom: 4px solid #34ef60;
+    height: 80px;
+    background: #ffffff;
+    font-family: "Smooch_Sans2";
+    box-shadow: 0px 0px 0px #1c2228;
+}
+header{
+    height: 80px;
+    background: #ffffff;
+    font-family: "Smooch_Sans2";
+    box-shadow: 0px 0px 0px #1c2228;
+}
+article {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 50px 10px 50px;
+}
+h1,h2, h3, h4, h5, h6 {
+    text-align : center;
+    color : rgb(48, 41, 78);
+    font-family: "Smooch_Sans2";
+    text-shadow: 1px 1px 0 #ffffff,3px 3px 3px #cacaca;
+    padding: 10px 0;
+}
+h2{
+    font-size: 1.7em;
+}
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+}
+mark{
+    background-color : rgb(226, 249, 142);
+    color : #89547c;
+}
+.centrovany {
+    text-align: center;
+}
+body {
+    font-family: "Smooch_Sans";
+    background: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+        padding: 100px 0px 0px 0px;
+    min-width: 400px;
+}
+strong {
+    color : rgb(82, 113, 151);
+    font-family: "Smooch_Sans2";
+}
+.avatar {
+    float: right;
+    width: 200px;
+    padding-left: 10px;
+}
+.prostredni {
+    background: #ffffff;
+}
+article section p {
+    line-height: 1.4em;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+/*article section a {
+    color: #EF6534;
+}*/
+.cistic {
+    clear: both;
+}
+.reference-tlacitko {
+    background: #70B73A;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    color: white;
+    background: #414042;
+    padding: 50px 0 0 0;
+    clip-path: polygon(0 15px, 100% 0, 100% 105%, 0 105%);
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.vlevo {
+    float: left;
+}

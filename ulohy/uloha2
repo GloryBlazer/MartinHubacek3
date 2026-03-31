@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <p>Jsme česká <strong>IT sociální síť</strong> s širokou komunitou aktivních členů.
+         Hostujeme <u>největší databázi</u> volně dostupných článků a tutoriálů
+          o programování a IT obecně na českém internetu.
+           <mark>Na ITnetwork přicházejí nováčci a stávají se z nich zkušení programátoři.</mark>
+            A jak víte, ajťáci se v životě <s>mají</s> nemají vůbec špatně.
+             Můžeš si tu <strong>vytvořit portfolio</strong> a nahrávat své aplikace,
+              na které získáš <u>zpětnou vazbu</u> a hodnocení.
+               I <em>zkušení programátoři</em> zde samozřejmě naleznou nové materiály,
+                inspiraci a výzvy.</p>
+</body>
+</html>
