@@ -1,43 +1,17 @@
-<!DOCTYPE html lang="cs-cz" style="--ewButtonHeight: 70px;">
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Kontakt na programátora HoBiho, programování na zakázku." />
-    <meta name="keywords" content="kontakt, programátor, HoBi, zakázka, programování" />
-    <meta name="author" content="HoBi" />
-    <link rel="shortcut icon" href="obrazky/ikona.ico" />
-    <link rel="stylesheet" href="styl.css" type="text/css" />
-    <title>Kontaktujte mě</title>
-</head>
-
-<body>
-    <h1> Kontakt </h1>
-    <p><img src="obrazky/email.png" alt="email" /></p>
-    <p> Pokud mi chcete něco sdělit, napište mi email na <strong>martin.hubacek3@seznam.cz</strong></p>
-
-    </p>
-
-    <h2>test h2 <s><mark>sfsfsfsf</mark></s></h2>
-    <p>
-        test
-        <img src="obrazky/svd.png" alt="Test obrazek" width="30%" />
-    </p>
-    <iframe frameborder="0" scrolling="no" width="500px" height="220px"
-            src="http://www.itnetwork.cz/service/mail_form.php?hash=kod-vaseho-mailformu">
-        </iframe>
-
-</body>
-<footer>
-    <nav>
-        <ul>
-            <li class="aktivni"><a href="index.html">Domů</a></li>
-            <li><a href="dovednosti.html">Dovednosti</a></li>
-            <li><a href="reference.html">Reference</a></li>
-            <li><a class="kontakt-tlacitko" href="kontakt.html">Kontakt</a></li>
-        </ul>
-    </nav>
-    vytvořil &copy;Martin Hubáček, 2026
-</footer>
-
-</html>
+<!DOCTYPE html>
+<html lang="cs">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Osobní portfolio Martina Hubáčka: hry, weby a programování."><meta name="author" content="Martin Hubáček"><title>Kontakt</title><link rel="stylesheet" href="styl.css"><link rel="icon" href="obrazky/person_circle_icon.ico"><script src="contact.js" defer></script></head>
+<body><a class="skip-link" href="#main">Přejít na obsah</a><header class="navigace"><a id="logo" href="index.html"><span>Martin <strong>Hubáček</strong></span><small>Web developer</small></a><nav aria-label="Hlavní navigace"><ul><li><a href="index.html">Domů</a></li><li><a href="dovednosti.html">Dovednosti</a></li><li><a href="reference.html">Reference</a></li><li class="aktivni"><a href="kontakt.html" aria-current="page">Kontakt</a></li><li><a href="js_projekt/Questionaire.html">Dotazník</a></li><li><a href="hravy_zivot/index.html">Hravý život</a></li></ul></nav></header>
+<main id="main"><h1>Kontakt</h1><p>Chcete mi něco sdělit nebo se zeptat na můj projekt? Napište mi e-mail.</p><p><a class="reference-tlacitko" href="mailto:martin.hubacek3@seznam.cz">martin.hubacek3@seznam.cz</a></p><section aria-labelledby="contact-heading">
+<h2 id="contact-heading">Kontaktní formulář</h2>
+<p>Formulář uloží zprávu na server. E-mail se zatím automaticky neodesílá; pro přímé doručení použijte odkaz výše.</p>
+<form id="contact-form">
+<label for="contact-name">Jméno</label><input id="contact-name" name="name" autocomplete="name" required maxlength="100">
+<label for="contact-email">E-mail</label><input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="254">
+<label for="contact-subject">Předmět</label><input id="contact-subject" name="subject" required maxlength="150">
+<label for="contact-message">Zpráva</label><textarea id="contact-message" name="message" rows="6" required maxlength="4000"></textarea>
+<button type="submit">Uložit zprávu</button>
+<p id="contact-status" role="status" aria-live="polite"></p>
+</form>
+<noscript>Pro použití formuláře zapněte JavaScript nebo napište e-mail pomocí odkazu výše.</noscript>
+</section></main><footer>Vytvořil &copy; Martin Hubáček, 2026</footer></body></html>

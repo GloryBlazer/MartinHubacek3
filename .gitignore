@@ -1,3 +1,11 @@
 l/
 css/
 js/
+.vs/
+**/bin/
+**/obj/
+**/App_Data/
+backend/publish/
+*.csproj.user
+hravy_zivot/filezilla prihlasovani.txt
+.dotnet-cli/

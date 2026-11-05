@@ -1,0 +1,254 @@
+@font-face {
+    font-family:Manrope;
+    src: url(asety/Font/Manrope\ font/Manrope-VariableFont_wght.ttf);
+        font-weight: 100 900;
+    font-display: swap;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+body {
+    font-family: "Manrope", system-ui, sans-serif;
+    background: #ffffff;
+    color: #004B49;
+    margin: 0;
+    padding: 0;
+}   
+html {
+    background: #00857A;
+}
+#logo {
+    width: 100%;
+    max-width: 350px;
+    min-width: 150px;
+    margin: 0 0 0 50px;
+    display: flex;
+    align-items: center;
+}
+.lukas-text {
+    width: 100%;
+    height: auto;
+    padding: 30px 50px 20px 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #E6D5B8;
+}
+.lukas-text img {
+  display: block;
+  max-width: 20%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+}
+.lukas-text p {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 15px 50px 0 50px;
+}
+header{
+    background: #ffffff;
+}
+ div.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu li:not(:first-child)::before {
+    color: #FF9E1B;
+    content: "•";
+    font-size: 20px;
+    margin-right: 0px;
+}
+#name {
+    /*height: 100%;*/
+    margin: 0 0 0 0;
+    display: flex;
+    color:#FF9E1B;
+}
+div {
+    padding: 10px 50px 100px 50px;
+    margin: 0 auto;
+}
+div#seznameni{
+        padding: 10px 50px 30px 50px;
+}
+#seznameni {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-image: url("asety/obrazky/WhatsApp Image 2026-06-30 at 11.03.13.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#o_nas {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-image: url("asety/obrazky/priroda.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1,h2, h3, h4, h5, h6 {
+    text-align : center;
+    color: #004B49;
+    font-family: "Manrope", system-ui, sans-serif;
+    /*text-shadow: 1px 1px 0 #ffffff,3px 3px 3px #cacaca;*/
+    padding: 10px 0;
+}
+h2{
+    font-size: 1.7em;
+}
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nabidka {
+    text-align: center;
+    font-size: 1.2em;
+    color: #004B49;
+    font-family: "Manrope", system-ui, sans-serif;
+}
+table {
+  width: min(100%, 965px);
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #292929;
+  color: #f3f3f3;
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+}
+
+th,
+td {
+  width: 25%;
+  padding: 9px 8px;
+  border: 1px solid #cfcfcf;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.18;
+}
+
+th {
+  font-weight: 400;
+  background: #292929;
+}
+
+td {
+  background: #323232;
+}
+
+td strong {
+  display: block;
+}
+
+td span {
+  display: block;
+  margin-top: 20px;
+}
+strong {
+    color: #527197;
+    font-family: "Manrope", system-ui, sans-serif;
+}
+.avatar {
+    float: right;
+    width: 200px;
+    padding-left: 10px;
+}
+.prostredni {
+    background: #ffffff;
+}
+article section p {
+    line-height: 1.4em;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+/*article section a {
+    color: #EF6534;
+}*/
+.cistic {
+    clear: both;
+}
+.reference-tlacitko {
+    background: #70B73A;
+    color: #004B49;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+footer {
+    color: rgb(255, 255, 255);
+    background: #004B49;
+    padding: 50px 0 0 50px;
+    font-size: 25px;
+}
+#first-row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 20px;
+height: auto;
+flex: 0 0 100%;
+width: 100%;
+}
+#new-row {
+  height: auto;
+  flex: 0 0 100%;
+  width: 100%;
+}
+footer a {
+    color: #00857A;
+    text-decoration: none;
+}
+.vlevo {
+    float: left;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+#first-row, #new-row { padding: 12px 0; }
+footer { padding: 24px; }
+footer a { color: #b2efe5; overflow-wrap: anywhere; }
+article h1 { width: auto; }
+:focus-visible { outline: 3px solid #be5700; outline-offset: 3px; }
+@media (max-width: 700px) {
+  div { padding: 20px; }
+  #logo { margin: 0 auto; }
+  .lukas-text { flex-direction: column; padding: 20px; gap: 20px; }
+  .lukas-text p { margin: 0; }
+  .lukas-text img { max-width: 100%; width: 260px; margin: auto; }
+  table { font-size: 14px; overflow-wrap: anywhere; }
+  th, td { padding: 6px; }
+  footer { font-size: 18px; }
+}
+.portfolio-link { display: block; padding: 12px 20px; color: #004B49; background: #f5f7fa; }
