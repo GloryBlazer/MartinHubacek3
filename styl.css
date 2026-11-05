@@ -1,214 +1,35 @@
-@font-face {
-    font-family:Smooch_Sans;
-    src: url(fonty/Smooch_Sans/SmoochSans-VariableFont_wght.ttf);
-        font-weight: normal;
-
-}
-@font-face {
-    font-family:Smooch_Sans2;
-    src: url(fonty/Smooch_Sans/SmoochSans-VariableFont_wght.ttf);
-    font-size:x-large;
-}
-html {
-    background: #414042;
-}
-#logo > * {
-    margin: 0 0 0 50px;
-}
-#logo h1 {
-    font-weight: normal;
-    font-size: 1.5em;
-    line-height: 1.2em;
-    color: white;
-}
-#logo h1 span {
-    font-weight: bold;
-    text-transform: uppercase;
-}
-#logo small {
-    text-transform: uppercase;
-    font-size: 0.85em;
-}
-#logo {
-    height: 40px;
-    width: 100;
-    margin: auto 0 auto 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: url('obrazky/untitled.png') no-repeat;
-    background-size: 40px 40px;
-}
-#dovednosti td {
-    width: 33%;
-    padding: 10px;
-    vertical-align: top;
-    border: 1px solid gray;
-}
-#dovednosti {
-    border-collapse: collapse;
-}
-#reference img {
-    border: 1px solid gray;
-    padding: 6px;
-    box-shadow: 3px 3px 6px #999999;
-    margin-right: 6px;
-}
-#reference a {
-    text-decoration: none;
-}
-
-#reference a:hover {
-    text-decoration: none;
-}
-.navigace{
-    height: 100px;
-    width: 100%;
-    background: #00386B;
-    color: rgb(108, 174, 176);
-    display: flex;
-    justify-content: space-evenly;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-}
-nav ul {
-    padding: 0 85px;
-    margin: 0px;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-nav ul li {
-    padding: 0 15px;
-    margin: 0 10px;
-    font-size: 1em;
-    line-height: 4.3em;
-}
-nav ul a {
-    color: white;
-    padding: 8px 0;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-nav ul a:hover {
-    border-bottom: 2px solid #EF6534;
-}
-.aktivni a{
-    border-bottom: 2px solid #34ef60;
-}
-.vrch {
-    height: 1px;
-    background: #9bdc84;
-    box-shadow: 0.01px 0.01px 4px #1c2228;
-}
-.kontakt-tlacitko {
-    background: #EF6534;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-.kontakt-tlacitko:hover,
-.reference-tlacitko:hover {
-    filter: brightness(115%) contrast(85%);
-    border: 0;
-}
-.prostredni header{
-    border-bottom: 4px solid #34ef60;
-    height: 80px;
-    background: #ffffff;
-    font-family: "Smooch_Sans2";
-    box-shadow: 0px 0px 0px #1c2228;
-}
-header{
-    height: 80px;
-    background: #ffffff;
-    font-family: "Smooch_Sans2";
-    box-shadow: 0px 0px 0px #1c2228;
-}
-article {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 50px 50px 10px 50px;
-}
-h1,h2, h3, h4, h5, h6 {
-    text-align : center;
-    color : rgb(48, 41, 78);
-    font-family: "Smooch_Sans2";
-    text-shadow: 1px 1px 0 #ffffff,3px 3px 3px #cacaca;
-    padding: 10px 0;
-}
-h2{
-    font-size: 1.7em;
-}
-article h1 {
-    margin: 0;
-    font-size: 2.3em;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: max-content;
-}
-mark{
-    background-color : rgb(226, 249, 142);
-    color : #89547c;
-}
-.centrovany {
-    text-align: center;
-}
-body {
-    font-family: "Smooch_Sans";
-    background: #ffffff;
-    margin: 0 auto;
-    box-sizing: border-box;
-        padding: 100px 0px 0px 0px;
-    min-width: 400px;
-}
-strong {
-    color : rgb(82, 113, 151);
-    font-family: "Smooch_Sans2";
-}
-.avatar {
-    float: right;
-    width: 200px;
-    padding-left: 10px;
-}
-.prostredni {
-    background: #ffffff;
-}
-article section p {
-    line-height: 1.4em;
-    margin: 0 auto;
-    margin-bottom: 1.5em;
-    line-height: 1.8em;
-}
-/*article section a {
-    color: #EF6534;
-}*/
-.cistic {
-    clear: both;
-}
-.reference-tlacitko {
-    background: #70B73A;
-    color: white;
-    font-size: 0.9em;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 50px;
-}
-footer {
-    box-sizing: border-box;
-    text-align: center;
-    height: 100px;
-    color: white;
-    background: #414042;
-    padding: 50px 0 0 0;
-    clip-path: polygon(0 15px, 100% 0, 100% 105%, 0 105%);
-}
-footer a {
-    color: white;
-    text-decoration: none;
-}
-.vlevo {
-    float: left;
-}
+@font-face { font-family: Smooch_Sans; src: url("fonty/Smooch_Sans/SmoochSans-VariableFont_wght.ttf"); font-weight: 100 900; font-display: swap; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Smooch_Sans, system-ui, sans-serif; font-size: 1.25rem; line-height: 1.6; color: #30294e; background: #f5f7fa; }
+a { color: #00386b; overflow-wrap: anywhere; }
+.navigace { background: #00386b; color: white; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding: 20px max(20px, calc((100vw - 1100px) / 2)); }
+#logo { color: white; text-decoration: none; display: flex; flex-direction: column; line-height: 1.2; font-size: 1.5rem; }
+#logo strong { text-transform: uppercase; }
+#logo small { font-size: .8rem; }
+nav ul { display: flex; flex-wrap: wrap; gap: 12px 24px; list-style: none; padding: 0; margin: 0; }
+nav a { color: white; text-decoration: none; padding: 8px 0; }
+nav a:hover, .aktivni a { border-bottom: 3px solid #70db89; }
+main { max-width: 1060px; margin: 32px auto; padding: clamp(20px, 4vw, 48px); background: white; border-radius: 12px; display: flow-root; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; margin-top: 0; }
+h2 { font-size: 1.8rem; }
+img { max-width: 100%; height: auto; }
+.avatar { float: right; width: 200px; margin: 0 0 24px 24px; }
+.project-links { display: flex; flex-wrap: wrap; gap: 16px; clear: both; }
+.reference-tlacitko { display: inline-block; background: #326b19; color: white; padding: 10px 20px; border-radius: 24px; text-decoration: none; }
+.reference-tlacitko:hover { background: #254f13; }
+.skills-grid, .games-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 24px; }
+.skills-grid section { padding: 20px; border: 1px solid #c8d5dc; border-radius: 8px; }
+.ikony { width: 100px; height: 100px; object-fit: contain; }
+.games-grid a { display: flex; flex-direction: column; gap: 12px; }
+footer { text-align: center; background: #414042; color: white; padding: 24px; }
+:focus-visible { outline: 3px solid #ef6534; outline-offset: 4px; }
+.skip-link { position: absolute; left: 16px; top: -100px; padding: 8px; background: white; }
+.skip-link:focus { top: 8px; }
+@media (max-width: 600px) { .navigace { flex-direction: column; align-items: flex-start; } main { margin: 16px 0; border-radius: 0; } .avatar { float: none; display: block; margin: 0 auto 24px; } }
+#contact-form { max-width: 640px; display: grid; gap: 10px; }
+#contact-form label { font-weight: 650; }
+#contact-form input, #contact-form textarea { width: 100%; min-width: 0; font: inherit; color: inherit; padding: 10px 12px; border: 1px solid #8797aa; border-radius: 6px; }
+#contact-form textarea { resize: vertical; }
+#contact-form button { justify-self: start; font: inherit; cursor: pointer; padding: 10px 20px; border: 0; border-radius: 24px; background: #326b19; color: white; }
+#contact-form button:disabled { opacity: .6; cursor: wait; }
+#contact-status { min-height: 1.6em; margin: 0; }

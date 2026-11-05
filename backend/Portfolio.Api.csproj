@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><DefaultItemExcludes>$(DefaultItemExcludes);publish/**</DefaultItemExcludes></PropertyGroup>
+  <ItemGroup>
+    <Content Include="../contact.js" Link="wwwroot/contact.js" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../index.html;../dovednosti.html;../reference.html;../kontakt.html;../styl.css" Link="wwwroot/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../js_projekt/*.html;../js_projekt/*.css;../js_projekt/questionnaire.js" Link="wwwroot/js_projekt/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../obrazky/**/*" Link="wwwroot/obrazky/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../fonty/**/*.ttf" Link="wwwroot/fonty/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../hravy_zivot/*.html;../hravy_zivot/*.css" Link="wwwroot/hravy_zivot/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../hravy_zivot/asety/**/*.png;../hravy_zivot/asety/**/*.jpeg;../hravy_zivot/asety/**/*.jpg;../hravy_zivot/asety/**/*.ttf" Link="wwwroot/hravy_zivot/asety/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
+
